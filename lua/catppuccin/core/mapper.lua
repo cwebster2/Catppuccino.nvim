@@ -39,7 +39,7 @@ local function get_base()
 		SignColumnSB = { bg = cp.catppuccin13, fg = cp.catppuccin12 }, -- column where |signs| are displayed
 		Substitute = { bg = cp.catppuccin12, fg = cp.catppuccin4 }, -- |:substitute| replacement text highlighting
 		LineNr = { fg = cp.catppuccin12 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is secp.
-		CursorLineNr = { fg = cp.catppuccin0 }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line. highlights the number in numberline.
+		CursorLineNr = { fg = cp.catppuccin3 }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line. highlights the number in numberline.
 		MatchParen = { fg = cp.catppuccin6, style = "bold" }, -- The character under the cursor or just before it, if it is a paicatppuccin5 bracket, and its match. |pi_paren.txt|
 		ModeMsg = { fg = cp.catppuccin0, style = "bold" }, -- 'showmode' message (e.g., "-- INSERT -- ")
 		MsgArea = { fg = cp.catppuccin0 }, -- Area for messages and cmdline
